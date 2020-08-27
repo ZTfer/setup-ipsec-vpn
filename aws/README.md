@@ -11,7 +11,7 @@ This template will create a fully-working IPsec VPN server on Amazon Elastic Com
 > **Note:** Before using the Debian images on EC2, you need to first subscribe at the AWS Marketplace: [Debian 10](https://aws.amazon.com/marketplace/pp/B0859NK4HC), [Debian 9](https://aws.amazon.com/marketplace/pp/B073HW9SP3).
 - Your VPN username
 - Your VPN password
-- Your IPsec PSK (pre-shared key)
+- Your VPN IPsec PSK (pre-shared key)
 
 > **Note:** When choosing your VPN username, password and PSK, DO NOT use these special characters: `\ " '`.
 
@@ -29,7 +29,7 @@ Click the icon below to start:
 
 <a href="https://console.aws.amazon.com/cloudformation/home#/stacks/new" target="_blank"><img src="cloudformation-launch-stack-button.png" alt="Deploy using CloudFormation" height="34px"></a>
 
-Make sure the deployment is successful before continuing to [Next steps: Configure VPN Clients](../README.md#next-steps).
+You may choose an AWS region using the selector to the right of your account information on the navigation bar, before uploading the template. Make sure the deployment is successful before continuing to [Next steps: Configure VPN Clients](../README.md#next-steps).
 
 > **Note:** You will need to wait at least 5 minutes after the stack shows **CREATE_COMPLETE**, before you can connect to the server with a VPN client. This is to allow time for the VPN setup to complete.
 
